@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "cadd5a41-d28a-4c00-8976-782adb07e683",
+            "Value": {
+                "id": "54fbc2f0-d6c4-4d6a-b475-b9418f87f9ae",
+                "resourcePath": "sprites\\gario_idle\\gario_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "89d9ddbf-e605-45d6-8ef0-24952ec04de3",
