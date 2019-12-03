@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02595050-5e6f-4475-b8da-ba9cbaf759e9",
+            "Value": {
+                "id": "c8c52f19-22c0-4aa5-9308-c5ac669f91d7",
+                "resourcePath": "sprites\\spr_health_base\\spr_health_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "161e61a9-7db4-4398-ae10-0ef3bfefb424",
             "Value": {
                 "id": "96cb66c8-cd62-43f2-a29b-3b4e894d52c7",
@@ -51,6 +59,14 @@
             "Value": {
                 "id": "cfa9a835-86ad-41b2-876f-f68228b10747",
                 "resourcePath": "views\\16865e37-d9a1-457f-8581-dbeb37e7d30b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "26080d0b-c77c-422e-8e6d-010ed4f36bf3",
+            "Value": {
+                "id": "6fda1b10-f936-4eeb-9750-971889b5acce",
+                "resourcePath": "views\\26080d0b-c77c-422e-8e6d-010ed4f36bf3.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -84,6 +100,14 @@
                 "id": "a314a126-b84b-4a9b-b8b6-22abc04e5487",
                 "resourcePath": "sprites\\spr_gario_fall_trans\\spr_gario_fall_trans.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3c362969-2f38-4187-8c32-4d6f6ada644a",
+            "Value": {
+                "id": "fc6c45ad-582b-413d-adbc-de43737c45b4",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -130,7 +154,7 @@
             "Key": "5fca79a2-a517-486f-b0f9-1de8ab1885e6",
             "Value": {
                 "id": "ef298659-4126-45e8-8f87-77fd0021ba1c",
-                "resourcePath": "sprites\\spr_solid_temp\\spr_solid_temp.yy",
+                "resourcePath": "sprites\\spr_solid\\spr_solid.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -156,6 +180,14 @@
                 "id": "00e2d74a-e21d-4831-813c-509dc4932935",
                 "resourcePath": "objects\\obj_solid\\obj_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7d25e86e-7637-40df-8f35-5957615a70f6",
+            "Value": {
+                "id": "7b697245-9372-4575-9901-0c0199a58d1d",
+                "resourcePath": "sprites\\spr_gario_gui\\spr_gario_gui.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "a8678bc5-0f81-449e-9a44-ae448bcc599a",
+            "Value": {
+                "id": "13d44b6c-7007-4048-b650-3e6a1893aa4a",
+                "resourcePath": "views\\a8678bc5-0f81-449e-9a44-ae448bcc599a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a8e6d9bf-25a8-4790-93f9-5d4307fdbd1c",
             "Value": {
                 "id": "2b1d4d36-a009-42d9-9940-2de32603f6f6",
@@ -211,6 +251,14 @@
             "Value": {
                 "id": "523ddf14-646a-4f86-81ff-9de994ffc7b3",
                 "resourcePath": "sprites\\spr_moomba_walk\\spr_moomba_walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3c3caa1-fc25-4979-8835-d682f38f7ebc",
+            "Value": {
+                "id": "4c5689a4-8a54-4587-80e6-26911322aa8e",
+                "resourcePath": "sprites\\spr_health_center\\spr_health_center.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -271,6 +319,14 @@
             }
         },
         {
+            "Key": "e9fd5e5a-d36a-463c-97d0-111acf624660",
+            "Value": {
+                "id": "01e760e2-6185-4741-89f3-1e8f7e21de25",
+                "resourcePath": "sprites\\spr_health_bar\\spr_health_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ebb4d4d4-dccd-4b41-b2f6-1589d2a027e2",
             "Value": {
                 "id": "51d59822-43ad-4135-810b-c2df4f801a5d",
@@ -300,6 +356,14 @@
                 "id": "3196f84b-5896-440f-a3dc-ae6add42ca92",
                 "resourcePath": "scripts\\scr_input_keyboard\\scr_input_keyboard.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f0696354-3d0e-449e-827f-fd461c400a55",
+            "Value": {
+                "id": "e4a430dd-ead5-4a0b-84df-a03c5e6db8b5",
+                "resourcePath": "sprites\\spr_health_end\\spr_health_end.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
