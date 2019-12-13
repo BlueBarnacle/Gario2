@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "e5bdd766-4485-4b51-9ff2-4e0486c5ab72",
+            "Value": {
+                "id": "f1efb308-7b16-4073-a93b-aab62158a7f9",
+                "resourcePath": "sprites\\sprsht_grasssnow\\sprsht_grasssnow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e7d88f9e-8ef3-49ad-acb4-f0e66a65fd5e",
             "Value": {
                 "id": "d2ea3d3e-4401-4cc2-b6b9-985b2d31b366",
