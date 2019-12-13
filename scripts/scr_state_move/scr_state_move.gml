@@ -13,8 +13,8 @@ if dir != 0 {
 }
 
 //Jumping Mechanism
-if InputJump && place_meeting(x,y+1,obj_solid) {
-	phy_linear_velocity_y = -300;
+if InputJump && position_meeting(x,y+(sprite_height/2)+1,obj_parent_solid) {
+	phy_linear_velocity_y = -400;
 }
 
 if phy_linear_velocity_y > 0 {
