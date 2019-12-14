@@ -14,6 +14,7 @@ if dir != 0 {
 
 //Jumping Mechanism
 if InputJump && position_meeting(x,y+(sprite_height/2)+1,obj_parent_solid) {
+	audio_play_sound(snd_jump,1,0);
 	phy_linear_velocity_y = -400;
 }
 
@@ -26,6 +27,7 @@ if phy_linear_velocity_y > 0 {
 //Death
 if invframe == 0 && (place_meeting(x+1,y-4,obj_moomba) || place_meeting(x-1,y-4,obj_moomba)){
 	hp--
+	audio_play_sound(snd_hit,1,0);
 	invframe = 45;
 }
 if hp == 0 {

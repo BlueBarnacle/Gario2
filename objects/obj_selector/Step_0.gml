@@ -23,3 +23,6 @@ if selection == 1 {
 		room_goto(rm_options);
 	}
 }
+if InputMenuUp || InputMenuDown {
+	audio_play_sound(snd_select,1,0);	
+}

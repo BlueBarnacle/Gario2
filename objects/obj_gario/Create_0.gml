@@ -6,3 +6,4 @@ mspd = 4;
 vel = 1;
 invframe = 45;
 state = scr_state_move;
+totalpresents = 0;

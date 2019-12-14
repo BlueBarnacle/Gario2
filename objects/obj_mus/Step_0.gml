@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description  ass
 if room == rm_mainmenu && !(audio_is_playing(mus_titletheme)) {
 	audio_stop_all();
 	audio_play_sound(mus_titletheme,1,true);
