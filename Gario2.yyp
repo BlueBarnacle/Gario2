@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "7604b0cc-3c81-4db6-9b03-d36df7438edd",
+            "Value": {
+                "id": "0f7cafd5-f7cb-4123-a0ec-dbabcb0da4aa",
+                "resourcePath": "sounds\\mus_titletheme\\mus_titletheme.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7d25e86e-7637-40df-8f35-5957615a70f6",
             "Value": {
                 "id": "7b697245-9372-4575-9901-0c0199a58d1d",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "c3553ce6-e7a2-4282-a499-33ca6f9d787a",
+            "Value": {
+                "id": "0cc1e0c0-d451-4669-8eae-c34fe3d01450",
+                "resourcePath": "sounds\\mus_ground\\mus_ground.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c3c3caa1-fc25-4979-8835-d682f38f7ebc",
             "Value": {
                 "id": "4c5689a4-8a54-4587-80e6-26911322aa8e",
@@ -420,6 +436,14 @@
                 "id": "02682e1b-9776-4614-8fb0-7a1cdbfd7804",
                 "resourcePath": "views\\e2a97818-4a08-4d9d-a171-1c361bd140be.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e59c2576-52e8-43e0-82e1-fc7a7c06e13a",
+            "Value": {
+                "id": "735b218d-c1ef-4d1f-a799-1cb2fc54b967",
+                "resourcePath": "objects\\obj_mus\\obj_mus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
