@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 if is_dead {
 	if mspd > 0 {
 		mspd -= 0.3;			
@@ -8,7 +7,9 @@ if is_dead {
 	if mspd < 0 {
 		mspd += 0.3;	
 	}
-	
+	if -0.3 <= mspd && 0.3 >= mspd {
+		mspd = 0;	
+	}
 	if is_dead_anim && is_dead_anim_tick > 0 {
 		is_dead_anim_tick -= 1;
 	}
@@ -37,30 +38,24 @@ if is_dead {
 	image_xscale = death_dir;
 }
 else {
-	if place_meeting(x+3*mspd, y, obj_solid) {
-		mspd *= -1;	
-	}
-	
-	if mspd > 0 {
-		if collision_line(bbox_right,y,bbox_right+range,y,obj_gario,false,false) && obj_gario.hp > 0 {
-			scr_gario_dmg(3);
-		}
-	}
-	else{
-		if collision_line(bbox_left,y,bbox_left-range,y,obj_gario,false,false) && obj_gario.hp > 0 {
-			scr_gario_dmg(3);
-		}
-	}
-
 	if place_meeting(x,y-4,obj_gario) && obj_gario.phy_linear_velocity_y > 0 {
-		obj_gario.phy_linear_velocity_y = -200;
+		obj_gario.phy_linear_velocity_y = -550;
 		is_dead_anim = true;
 		is_dead = true;
 		phy_linear_velocity_y = -280;
 		sprite_index = red_roomba_elec;
 		death_dir = sign(mspd);
 		audio_play_sound(snd_roomba_death,1,0);
+	} else if mspd > 0 {
+		if collision_line(bbox_right,y,bbox_right+(range*sign(mspd)),y,obj_gario,false,false) && obj_gario.hp > 0 {
+			scr_gario_dmg(3);
+		}
 	}
+	if place_meeting(x+3*mspd, y, obj_solid) {
+		mspd *= -1;	
+	}
+	
+	
 		
 	image_xscale = sign(mspd);
 		

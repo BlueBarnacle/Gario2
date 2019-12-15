@@ -15,3 +15,9 @@ if death {
 if death && InputJump {
     room_restart();
 }
+if layer_exists("Background_1"){
+	layer_x("Background_1",obj_gario.x/10)
+}
+if layer_exists("Background_2"){
+	layer_x("Background_2",obj_gario.x/8)
+}

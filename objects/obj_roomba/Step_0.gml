@@ -69,7 +69,9 @@ else {
 	else {
 		if place_meeting(x+3*mspd, y, obj_solid) {
 			mspd *= -1;	
-		}
+		} else if !place_meeting(x+19*mspd, y+16, obj_solid) {
+			mspd *= -1;	
+		} else
 
 		if place_meeting(x,y-4,obj_gario) && obj_gario.phy_linear_velocity_y > 0 {
 			obj_gario.phy_linear_velocity_y = -200;

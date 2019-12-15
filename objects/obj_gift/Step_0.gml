@@ -16,7 +16,7 @@ switch type {
 }
 image_index = type;
 if place_meeting(x,y,obj_gario){
-	obj_gario.totalpresents += presents
+	global.totalpresents += presents
 	audio_play_sound(snd_pickup,1,0);
 	instance_destroy();	
 }
