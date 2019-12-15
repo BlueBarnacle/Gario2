@@ -13,6 +13,7 @@ else {
 		obj_gario.phy_linear_velocity_y = -200;
 		sprite_index = spr_moomba_squash;
 		is_dead = true;
+		audio_play_sound(snd_moomba_squash,1,0);
 	}
 	if place_meeting(x,y+(sprite_height/2)+1,obj_moomba) {
 		image_speed = 0;

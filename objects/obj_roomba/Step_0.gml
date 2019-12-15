@@ -47,6 +47,11 @@ else {
 		if is_shooting_anim_tick == 32 {
 			if collision_line(x,y,x+(j*death_dir),y,obj_gario,false,false) && obj_gario.hp > 0 {
 				obj_gario.hp -= 8;
+				audio_play_sound(snd_hit,1,0);
+			}
+			if (point_in_rectangle(obj_gario.x, obj_gario.y, x - window_get_width()/2, y - window_get_height()/2, x + window_get_width()/2, y + window_get_height()/2)) {
+				show_debug_message("playspot.");
+				audio_play_sound(snd_roomba_shoot,1,0);
 			}
 		}
 		
@@ -74,12 +79,13 @@ else {
 			show_debug_message("Inside death spot.");
 			sprite_index = roomba_elec;
 			death_dir = sign(mspd);
+			audio_play_sound(snd_roomba_death,1,0);
 		}
 		
 		image_xscale = sign(mspd);
 		
 		randomize();
-		if irandom(120) == 0{
+		if irandom(56) == 0{
 			death_dir = sign(mspd);
 			if collision_line(x,y,x+(range*death_dir),y,obj_solid,false,false){
 				show_debug_message("Solid in range");
