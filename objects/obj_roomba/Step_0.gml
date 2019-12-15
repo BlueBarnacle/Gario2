@@ -22,9 +22,11 @@ if is_dead {
 			show_debug_message("Death is bad.");
 		}
 		else {
-			
-			if place_meeting(x+obj_gario.mspd, y, obj_gario) {
-				mspd = 6 * sign(obj_gario.mspd);	
+			if rectangle_in_rectangle(bbox_left,bbox_bottom,x,bbox_top,obj_gario.x, obj_gario.bbox_bottom, obj_gario.bbox_right, obj_gario.y) {
+				mspd = 6;	
+			}
+			else if rectangle_in_rectangle(x,bbox_bottom,bbox_right,bbox_top,obj_gario.bbox_left, obj_gario.bbox_bottom, obj_gario.x, obj_gario.y) {
+				mspd = -6;	
 			}
 		}
 	}
