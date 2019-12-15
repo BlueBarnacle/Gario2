@@ -40,6 +40,7 @@ else {
 			is_dead_anim = true;
 			is_dead = true;
 			phy_linear_velocity_y = -100;
+			show_debug_message("Inside death spot.");
 			sprite_index = roomba_elec;
 		}
 		
@@ -73,6 +74,7 @@ else {
 			is_dead_anim = true;
 			is_dead = true;
 			phy_linear_velocity_y = -100;
+			show_debug_message("Inside death spot.");
 			sprite_index = roomba_elec;
 			death_dir = sign(mspd);
 			audio_play_sound(snd_roomba_death,1,0);
