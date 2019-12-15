@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "d4c501fa-127e-4823-8ce2-9a58299ebdc5",
+            "Value": {
+                "id": "ff25afa9-73be-48fe-8fcf-a3134aa0c94c",
+                "resourcePath": "sounds\\snd_gario_superjump\\snd_gario_superjump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d516f667-03e2-43b0-9bd5-9fd13afe78d1",
             "Value": {
                 "id": "9ed6e0ab-c4b5-4c4c-8c93-4a8f47bfcee3",

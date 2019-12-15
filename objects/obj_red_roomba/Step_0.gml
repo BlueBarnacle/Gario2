@@ -3,10 +3,10 @@
 
 if is_dead {
 	if mspd > 0 {
-		mspd -= 0.2;			
+		mspd -= 0.3;			
 	}
 	if mspd < 0 {
-		mspd += 0.2;	
+		mspd += 0.3;	
 	}
 	
 	if is_dead_anim && is_dead_anim_tick > 0 {
@@ -21,11 +21,15 @@ if is_dead {
 			instance_destroy();	
 		}
 		else {
-			if rectangle_in_rectangle(bbox_left,bbox_bottom,x,bbox_top,obj_gario.x, obj_gario.bbox_bottom, obj_gario.bbox_right, obj_gario.y) {
-				mspd = 6;	
+			if rectangle_in_rectangle(bbox_left,bbox_bottom,x,bbox_top,obj_gario.x, obj_gario.bbox_bottom, obj_gario.bbox_right, obj_gario.y) && obj_gario.phy_linear_velocity_y <= 0 {
+				mspd = 4;	
 			}
-			else if rectangle_in_rectangle(x,bbox_bottom,bbox_right,bbox_top,obj_gario.bbox_left, obj_gario.bbox_bottom, obj_gario.x, obj_gario.y) {
-				mspd = -6;	
+			else if rectangle_in_rectangle(x,bbox_bottom,bbox_right,bbox_top,obj_gario.bbox_left, obj_gario.bbox_bottom, obj_gario.x, obj_gario.y) && obj_gario.phy_linear_velocity_y <= 0 {
+				mspd = -4;	
+			}
+			else if rectangle_in_rectangle(bbox_left,bbox_bottom,bbox_right,bbox_top,obj_gario.bbox_left, obj_gario.bbox_bottom, obj_gario.bbox_right, obj_gario.y) && obj_gario.phy_linear_velocity_y > 0 {
+				obj_gario.phy_linear_velocity_y = -550;
+				audio_play_sound(snd_gario_superjump,1,0);
 			}
 		}
 	}
@@ -52,7 +56,7 @@ else {
 		obj_gario.phy_linear_velocity_y = -200;
 		is_dead_anim = true;
 		is_dead = true;
-		phy_linear_velocity_y = -400;
+		phy_linear_velocity_y = -280;
 		sprite_index = red_roomba_elec;
 		death_dir = sign(mspd);
 		audio_play_sound(snd_roomba_death,1,0);
