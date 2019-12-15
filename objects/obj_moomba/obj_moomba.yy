@@ -80,7 +80,36 @@
         }
     ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "3b37150d-aab2-450a-8aa4-b8b3df37b03c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "is_dead",
+            "varType": 3
+        },
+        {
+            "id": "b658a965-5143-47d8-ac08-e6f67b7bc72f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "48",
+            "varName": "is_dead_anim_tick",
+            "varType": 1
+        }
+    ],
     "solid": true,
     "spriteId": "be8eeebe-9ce7-47ed-ae03-3eb23300adb5",
     "visible": true
