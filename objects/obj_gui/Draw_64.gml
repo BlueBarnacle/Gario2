@@ -12,3 +12,9 @@ for (j = 0; j < hp; j++) {
 draw_sprite_ext(spr_gifts,0,offset+32*guiScale,offset+18*guiScale,guiScale/2,guiScale/2,0,c_white,1);
 draw_set_font(fnt_menu)
 draw_text(offset+50*guiScale,offset+18*guiScale,obj_gario.totalpresents);
+if death == 1 {
+    draw_set_alpha(fade_timer/fade_timer_max);
+    draw_set_color(c_black);
+    draw_rectangle(0,0,view_wport[0],view_hport[0],false);
+    draw_set_alpha(1);
+}

@@ -391,6 +391,22 @@
             }
         },
         {
+            "Key": "98a894a5-5018-4d87-a3b2-b858c2845ede",
+            "Value": {
+                "id": "886bdcf7-6243-45d2-ba34-56beb0e11432",
+                "resourcePath": "sounds\\mus_death\\mus_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9947810d-25ca-46e9-b2ca-0a44ce4614f6",
+            "Value": {
+                "id": "98d17cef-8b66-4f34-8d5a-73976acccde1",
+                "resourcePath": "sounds\\snd_death\\snd_death.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a1751e7d-2d44-4600-ad74-174a0d448678",
             "Value": {
                 "id": "abf64acb-e0dc-4cf3-a8a1-1767673809c0",

@@ -7,3 +7,4 @@ InputUp = keyboard_check(ord("W"));
 InputESC = keyboard_check(vk_escape);
 InputMenuDown = keyboard_check_pressed(ord("S"));
 InputMenuUp = keyboard_check_pressed(ord("W"));
+DebugInputDeath = keyboard_check(vk_enter);

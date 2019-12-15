@@ -1,6 +1,4 @@
 /// @description Gario Move
-scr_input_keyboard();
-
 //Horizontal Mechanism
 dir = InputRight - InputLeft;
 phy_position_x += dir*mspd;
@@ -30,7 +28,8 @@ if invframe == 0 && (place_meeting(x+1,y-4,obj_moomba) || place_meeting(x-1,y-4,
 	audio_play_sound(snd_hit,1,0);
 	invframe = 45;
 }
-if hp == 0 {
+if hp <= 0 {
+	hp = max(0,hp);
 	invframe = 0;
 	state = scr_state_death();
 }

@@ -45,12 +45,8 @@ else {
 		}
 		
 		if is_shooting_anim_tick == 32 {
-			var i;
-			for (i = 0; i < 50; i++) {
-				if place_meeting(x+3*i*death_dir, y, obj_gario) {
-					obj_gario.hp -= 8;
-					i = 50;
-				}
+			if collision_line(x,y,x+(j*death_dir),y,obj_gario,false,false) && obj_gario.hp > 0 {
+				obj_gario.hp -= 8;
 			}
 		}
 		
@@ -83,12 +79,26 @@ else {
 		image_xscale = sign(mspd);
 		
 		randomize();
-		if irandom(119) == 0 {
-			sprite_index = roomba_shoot;
+		if irandom(120) == 0{
 			death_dir = sign(mspd);
-			mspd = 0;
-			is_shooting_anim_tick = 60;
-			is_shooting = true;
+			if collision_line(x,y,x+(range*death_dir),y,obj_solid,false,false){
+				show_debug_message("Solid in range");
+				for (j = range; j > 0; j--) {
+					if !(collision_line(x,y,x+(j*death_dir),y,obj_solid,false,false)) {
+						k = 1;
+						break
+					}
+				} 
+			} else {
+				j = range;
+				k = 1;
+			}
+			if (collision_line(x,y,x+(j*death_dir),y,obj_gario,false,false)) {
+				sprite_index = roomba_shoot;
+				mspd = 0;
+				is_shooting_anim_tick = 60;
+				is_shooting = true;
+			} 
 		}
 	}
 }
