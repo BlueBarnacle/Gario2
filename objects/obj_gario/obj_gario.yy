@@ -90,7 +90,22 @@
         }
     ],
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "6401b408-c6d1-40cc-861d-5cab6baa62de",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "cooldown_gario_death",
+            "varType": 1
+        }
+    ],
     "solid": true,
     "spriteId": "cadd5a41-d28a-4c00-8976-782adb07e683",
     "visible": true
