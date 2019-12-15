@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "35715ee1-fcfa-4c40-8ba2-6431be13dfdf",
+            "Value": {
+                "id": "a540fdd9-b074-48ea-a662-bc790964c719",
+                "resourcePath": "sounds\\snd_roomba_shoot\\snd_roomba_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3c362969-2f38-4187-8c32-4d6f6ada644a",
             "Value": {
                 "id": "fc6c45ad-582b-413d-adbc-de43737c45b4",
@@ -291,6 +299,14 @@
             "Value": {
                 "id": "19451105-6ead-4783-93f8-fa0d4e16c614",
                 "resourcePath": "sounds\\snd_select\\snd_select.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6b923253-4036-48d2-b622-23204603a1ea",
+            "Value": {
+                "id": "58419626-f088-4e06-9359-622317805f1e",
+                "resourcePath": "sounds\\snd_moomba_squash\\snd_moomba_squash.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -676,6 +692,14 @@
                 "id": "7dee8bc4-479d-49bd-a696-ea3469c0336b",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f502276c-b8b1-4b08-a56d-3007783980ee",
+            "Value": {
+                "id": "d9f22cfa-a13b-4daf-b26f-fc352d720ddb",
+                "resourcePath": "sounds\\snd_roomba_death\\snd_roomba_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {
