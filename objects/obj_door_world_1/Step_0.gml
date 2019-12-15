@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if global.world1unlock &&  i <= 0{
+if global.world1unlock {
 		sprite_index = spr_door_unlocked;
 		
 		scr_input_keyboard();
