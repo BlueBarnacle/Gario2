@@ -8,3 +8,4 @@ global.world5unlock = false;
 global.world6unlock = false;
 global.world7unlock = false;
 global.world8unlock = false;
+global.beatthegame = false;
