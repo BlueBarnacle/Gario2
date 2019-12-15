@@ -5,7 +5,7 @@ if instance_exists(obj_gario) {
 			audio_stop_all();
 			audio_play_sound(mus_titletheme,1,true);
 		}
-		if (room == rm_world_2 || room == rm_world_1) && !(audio_is_playing(mus_ground)){
+		if (room == rm_world_3 || room == rm_world_2 || room == rm_world_1) && !(audio_is_playing(mus_ground)){
 			audio_stop_all();
 			audio_play_sound(mus_ground,1,true);
 		}
