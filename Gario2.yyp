@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "17ae49e2-48a0-4354-a324-03c0be371552",
-            "Value": {
-                "id": "0eed217a-40fd-4c83-a297-bb1774967196",
-                "resourcePath": "views\\17ae49e2-48a0-4354-a324-03c0be371552.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "17b55236-014c-423a-bf37-814608b807d9",
             "Value": {
                 "id": "4df19d8a-bef6-44d4-866a-9c8427f6a285",
@@ -103,11 +95,11 @@
             }
         },
         {
-            "Key": "1e16dd5a-f05f-45b7-9b82-eecbd818eb71",
+            "Key": "1995ebb3-5fb4-4890-bb55-7bbf827d3aba",
             "Value": {
-                "id": "f2d23fed-e2bd-43a2-83fd-4562e4b3f308",
-                "resourcePath": "sprites\\red_roomba_idle\\red_roomba_idle.yy",
-                "resourceType": "GMSprite"
+                "id": "7312afa9-61f8-4285-a967-e5fd1d383124",
+                "resourcePath": "scripts\\scr_gario_dmg\\scr_gario_dmg.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -199,6 +191,14 @@
             }
         },
         {
+            "Key": "3caeb656-e65f-42da-9b98-1ad73aa5de4a",
+            "Value": {
+                "id": "9efb6f95-74b8-49e0-8444-202d5a66e052",
+                "resourcePath": "sprites\\red_roomba_dead\\red_roomba_dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43d93a80-1931-4e5d-a7b9-ca1a0f577a0d",
             "Value": {
                 "id": "68602231-aa6f-4e70-80d0-cdcd7a44e95b",
@@ -228,6 +228,14 @@
                 "id": "c02efa45-6f2e-4ad2-9806-4684a87cdc34",
                 "resourcePath": "objects\\obj_parent_solid\\obj_parent_solid.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50cb4fc2-d007-4e4e-a5f2-67d53c063250",
+            "Value": {
+                "id": "2dc766a8-2d9b-4688-a185-9aeaf5edeb6b",
+                "resourcePath": "sprites\\red_roomba_elec\\red_roomba_elec.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -423,14 +431,6 @@
             }
         },
         {
-            "Key": "96a248ed-173e-4c7b-b955-356069c02e16",
-            "Value": {
-                "id": "b81a7b78-eb03-45c3-b0c4-f0263577e6cd",
-                "resourcePath": "sprites\\red_roomba_elec\\red_roomba_elec.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "98a894a5-5018-4d87-a3b2-b858c2845ede",
             "Value": {
                 "id": "886bdcf7-6243-45d2-ba34-56beb0e11432",
@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "ac781ffb-1ffd-4f59-8f84-f31fd51632cc",
+            "Value": {
+                "id": "4023c49d-45e1-44b1-9dac-e3d633f18022",
+                "resourcePath": "sprites\\red_roomba_idle\\red_roomba_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ad2f8a6f-9db8-4df5-916d-9eb350b4f1fa",
             "Value": {
                 "id": "1b551a8d-23a6-4d91-9bf8-799ce43accbd",
@@ -524,14 +532,6 @@
                 "id": "520cb1dd-8795-47e9-9220-17e2cc40ceae",
                 "resourcePath": "sounds\\snd_pickup\\snd_pickup.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "b808eed1-83ac-4c26-94b4-70641f76fd5e",
-            "Value": {
-                "id": "5c9493b4-5407-4eb2-a094-cfe3617e7bc5",
-                "resourcePath": "objects\\obj_red_roomba\\obj_red_roomba.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -591,11 +591,11 @@
             }
         },
         {
-            "Key": "d1a0a88a-b023-4771-a0b8-fbaff3e1d906",
+            "Key": "d516f667-03e2-43b0-9bd5-9fd13afe78d1",
             "Value": {
-                "id": "7d2a6372-74c2-49b6-a1da-b337bd20c98b",
-                "resourcePath": "sprites\\red_roomba_death\\red_roomba_death.yy",
-                "resourceType": "GMSprite"
+                "id": "9ed6e0ab-c4b5-4c4c-8c93-4a8f47bfcee3",
+                "resourcePath": "objects\\obj_red_roomba\\obj_red_roomba.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -749,12 +749,21 @@
                 "resourcePath": "views\\fe44548c-a2c5-4aa9-b2f0-7acbbae04510.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "ff719f72-e87c-4954-8e43-e673b872cee2",
+            "Value": {
+                "id": "05ecb4a6-f407-49b6-b11f-fcdd33797c49",
+                "resourcePath": "views\\ff719f72-e87c-4954-8e43-e673b872cee2.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
         "efd1aa3a-b287-4cbe-ab3d-ca5dde282895",
         "4a5dfbf2-e802-42ed-b619-79174ed64d43",
-        "a7abe231-7a1f-47cf-bd6d-7a73c25d789b"
+        "a7abe231-7a1f-47cf-bd6d-7a73c25d789b",
+        "1995ebb3-5fb4-4890-bb55-7bbf827d3aba"
     ],
     "tutorial": ""
 }

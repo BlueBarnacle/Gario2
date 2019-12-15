@@ -1,74 +1,74 @@
 {
-    "id": "1e16dd5a-f05f-45b7-9b82-eecbd818eb71",
+    "id": "ac781ffb-1ffd-4f59-8f84-f31fd51632cc",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "red_roomba_idle",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 16,
+    "bbox_bottom": 34,
     "bbox_left": 1,
     "bbox_right": 35,
-    "bbox_top": 6,
+    "bbox_top": 24,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "03d82605-cc08-4a77-9056-274262011455",
+            "id": "1f192995-f670-44ba-8683-9bfdc08ef4fd",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "1e16dd5a-f05f-45b7-9b82-eecbd818eb71",
+            "SpriteId": "ac781ffb-1ffd-4f59-8f84-f31fd51632cc",
             "compositeImage": {
-                "id": "627dbe54-3709-4064-b2e2-147b92263519",
+                "id": "c0de4462-49ee-4e2c-bbef-e93d56d41e2d",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "03d82605-cc08-4a77-9056-274262011455",
+                "FrameId": "1f192995-f670-44ba-8683-9bfdc08ef4fd",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "0eb48b49-a3bc-421c-b464-a3615147b22a",
+                    "id": "ec4ed6d5-a798-4c01-89ff-12e76e2456d7",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "03d82605-cc08-4a77-9056-274262011455",
-                    "LayerId": "286c871d-7129-43cc-9d8e-a448d20579b0"
+                    "FrameId": "1f192995-f670-44ba-8683-9bfdc08ef4fd",
+                    "LayerId": "fd3f019a-3062-4390-9b0b-29444e5f2193"
                 }
             ]
         },
         {
-            "id": "9a99370f-96d0-4d91-9288-2bcfe5e3f18f",
+            "id": "67e46721-c03a-4359-af05-a123389ed7c1",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "1e16dd5a-f05f-45b7-9b82-eecbd818eb71",
+            "SpriteId": "ac781ffb-1ffd-4f59-8f84-f31fd51632cc",
             "compositeImage": {
-                "id": "b6a51600-458a-43dc-b0bf-fb808ae34353",
+                "id": "7f936c2e-6b27-4e2e-b16c-31da44a4b0d6",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "9a99370f-96d0-4d91-9288-2bcfe5e3f18f",
+                "FrameId": "67e46721-c03a-4359-af05-a123389ed7c1",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "812658d8-f6b2-413b-9ce9-d0ff3c9c848f",
+                    "id": "b32adea9-c34c-4fa0-aed1-995fd36d766e",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "9a99370f-96d0-4d91-9288-2bcfe5e3f18f",
-                    "LayerId": "286c871d-7129-43cc-9d8e-a448d20579b0"
+                    "FrameId": "67e46721-c03a-4359-af05-a123389ed7c1",
+                    "LayerId": "fd3f019a-3062-4390-9b0b-29444e5f2193"
                 }
             ]
         }
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 18,
+    "height": 36,
     "layers": [
         {
-            "id": "286c871d-7129-43cc-9d8e-a448d20579b0",
+            "id": "fd3f019a-3062-4390-9b0b-29444e5f2193",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "1e16dd5a-f05f-45b7-9b82-eecbd818eb71",
+            "SpriteId": "ac781ffb-1ffd-4f59-8f84-f31fd51632cc",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -78,7 +78,7 @@
     ],
     "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 12,
+    "playbackSpeed": 15,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
@@ -88,5 +88,5 @@
     "type": 0,
     "width": 36,
     "xorig": 18,
-    "yorig": 9
+    "yorig": 18
 }

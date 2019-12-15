@@ -40,17 +40,14 @@ else {
 			is_dead_anim = true;
 			is_dead = true;
 			phy_linear_velocity_y = -100;
-			show_debug_message("Inside death spot.");
 			sprite_index = roomba_elec;
 		}
 		
 		if is_shooting_anim_tick == 32 {
 			if collision_line(x,y,x+(j*death_dir),y,obj_gario,false,false) && obj_gario.hp > 0 {
-				obj_gario.hp -= 8;
-				audio_play_sound(snd_hit,1,0);
+				scr_gario_dmg(4);
 			}
 			if (point_in_rectangle(obj_gario.x, obj_gario.y, x - window_get_width()/2, y - window_get_height()/2, x + window_get_width()/2, y + window_get_height()/2)) {
-				show_debug_message("playspot.");
 				audio_play_sound(snd_roomba_shoot,1,0);
 			}
 		}
@@ -76,7 +73,6 @@ else {
 			is_dead_anim = true;
 			is_dead = true;
 			phy_linear_velocity_y = -100;
-			show_debug_message("Inside death spot.");
 			sprite_index = roomba_elec;
 			death_dir = sign(mspd);
 			audio_play_sound(snd_roomba_death,1,0);

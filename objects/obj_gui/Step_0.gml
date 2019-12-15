@@ -12,3 +12,6 @@ if death {
     fade_timer += 1;
     fade_timer = min(fade_timer,fade_timer_max)
 }
+if death && InputJump {
+    room_restart();
+}
