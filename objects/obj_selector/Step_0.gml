@@ -12,7 +12,7 @@ if selection == 0 {
 	x = 206;
 	y = 260;
 	if InputJump {
-		room_goto(rm_test);
+		room_goto(rm_lvlselect);
 	}
 }
 
