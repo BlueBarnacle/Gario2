@@ -23,11 +23,6 @@ if phy_linear_velocity_y > 0 {
 }
 
 //Death
-if invframe == 0 && (place_meeting(x+1,y-4,obj_moomba) || place_meeting(x-1,y-4,obj_moomba)){
-	hp--
-	audio_play_sound(snd_hit,1,0);
-	invframe = 45;
-}
 if hp <= 0 {
 	hp = max(0,hp);
 	invframe = 0;

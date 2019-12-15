@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1995ebb3-5fb4-4890-bb55-7bbf827d3aba",
+            "Value": {
+                "id": "7312afa9-61f8-4285-a967-e5fd1d383124",
+                "resourcePath": "scripts\\scr_gario_dmg\\scr_gario_dmg.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22230447-3648-446e-83fc-eb1977d95ff5",
             "Value": {
                 "id": "8d1715ad-6b2c-4bf2-9915-18ca9ceb566a",
@@ -690,7 +698,8 @@
     "script_order": [
         "efd1aa3a-b287-4cbe-ab3d-ca5dde282895",
         "4a5dfbf2-e802-42ed-b619-79174ed64d43",
-        "a7abe231-7a1f-47cf-bd6d-7a73c25d789b"
+        "a7abe231-7a1f-47cf-bd6d-7a73c25d789b",
+        "1995ebb3-5fb4-4890-bb55-7bbf827d3aba"
     ],
     "tutorial": ""
 }
