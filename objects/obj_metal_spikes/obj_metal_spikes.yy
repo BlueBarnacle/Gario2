@@ -2,7 +2,7 @@
     "id": "2c6ed6f3-af8d-47ce-b397-47772c6ef79d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "metal_spikes",
+    "name": "obj_metal_spikes",
     "eventList": [
         {
             "id": "51281896-5cff-4ec6-8566-e394e95bd620",

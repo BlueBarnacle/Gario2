@@ -146,7 +146,7 @@
             "Key": "2c6ed6f3-af8d-47ce-b397-47772c6ef79d",
             "Value": {
                 "id": "7b1a5b5f-c93e-4a25-897e-c5ac963d7d5d",
-                "resourcePath": "objects\\metal_spikes\\metal_spikes.yy",
+                "resourcePath": "objects\\obj_metal_spikes\\obj_metal_spikes.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -236,6 +236,14 @@
                 "id": "32f7b272-ba02-492f-9271-84e05baaa3ab",
                 "resourcePath": "scripts\\scr_state_move\\scr_state_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c42de09-3a33-4eb1-adba-d5f81757bb39",
+            "Value": {
+                "id": "03b2fade-dd5c-483d-a581-bc6e79575e7a",
+                "resourcePath": "sprites\\spr_green_goo\\spr_green_goo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "7c79d55b-3bff-48dd-9887-c14e753a4d25",
+            "Value": {
+                "id": "0d385e8a-b30d-46a9-bdb0-3dbd8a6953de",
+                "resourcePath": "sprites\\spr_showerhead_spray\\spr_showerhead_spray.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d25e86e-7637-40df-8f35-5957615a70f6",
             "Value": {
                 "id": "7b697245-9372-4575-9901-0c0199a58d1d",
@@ -479,6 +495,14 @@
             }
         },
         {
+            "Key": "a340dd58-b7f6-41b6-9d7b-6d245f0d49eb",
+            "Value": {
+                "id": "756718a5-bba9-4315-9412-828fb598ec80",
+                "resourcePath": "sprites\\spr_showerhead\\spr_showerhead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a59c1940-eca8-4faa-b7d0-0fea23498de7",
             "Value": {
                 "id": "e82c9ab1-2999-4bce-acd6-1b55cbea9d07",
@@ -535,6 +559,14 @@
             }
         },
         {
+            "Key": "aac9efa3-15e5-4eac-95b5-ac0d7d2d1344",
+            "Value": {
+                "id": "aeeb296d-8237-4612-b928-17dad9ea392b",
+                "resourcePath": "objects\\obj_showerhead\\obj_showerhead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac781ffb-1ffd-4f59-8f84-f31fd51632cc",
             "Value": {
                 "id": "4023c49d-45e1-44b1-9dac-e3d633f18022",
@@ -556,6 +588,14 @@
                 "id": "520cb1dd-8795-47e9-9220-17e2cc40ceae",
                 "resourcePath": "sounds\\snd_pickup\\snd_pickup.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "b5ed10c0-b6d5-4ef8-ae99-05315a000164",
+            "Value": {
+                "id": "0ae36e27-d96a-4324-8a43-3210b9a11205",
+                "resourcePath": "objects\\obj_green_goo\\obj_green_goo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -778,7 +818,7 @@
             "Key": "fd9b9ba6-e1cd-41d4-bcb1-18db8b96d84e",
             "Value": {
                 "id": "738352b8-dfd4-428c-8005-177e31fb8f97",
-                "resourcePath": "objects\\ice_spikes\\ice_spikes.yy",
+                "resourcePath": "objects\\obj_ice_spikes\\obj_ice_spikes.yy",
                 "resourceType": "GMObject"
             }
         },

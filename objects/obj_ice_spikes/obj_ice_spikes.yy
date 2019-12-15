@@ -2,7 +2,7 @@
     "id": "fd9b9ba6-e1cd-41d4-bcb1-18db8b96d84e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "ice_spikes",
+    "name": "obj_ice_spikes",
     "eventList": [
         {
             "id": "1fc6a3bb-2f40-464f-a647-c23152361e3a",
