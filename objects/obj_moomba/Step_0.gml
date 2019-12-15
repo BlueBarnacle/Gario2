@@ -15,7 +15,7 @@ else {
 		is_dead = true;
 		audio_play_sound(snd_moomba_squash,1,0);
 	} else if place_meeting(x,y,obj_gario) {
-		scr_gario_dmg(1,30);
+		scr_gario_dmg(1);
 	}
 	if place_meeting(x,y+(sprite_height/2)+1,obj_moomba) {
 		image_speed = 0;
