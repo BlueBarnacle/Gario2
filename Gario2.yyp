@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "17ae49e2-48a0-4354-a324-03c0be371552",
+            "Value": {
+                "id": "0eed217a-40fd-4c83-a297-bb1774967196",
+                "resourcePath": "views\\17ae49e2-48a0-4354-a324-03c0be371552.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "17b55236-014c-423a-bf37-814608b807d9",
             "Value": {
                 "id": "4df19d8a-bef6-44d4-866a-9c8427f6a285",
                 "resourcePath": "fonts\\fnt_menu\\fnt_menu.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "1e16dd5a-f05f-45b7-9b82-eecbd818eb71",
+            "Value": {
+                "id": "f2d23fed-e2bd-43a2-83fd-4562e4b3f308",
+                "resourcePath": "sprites\\red_roomba_idle\\red_roomba_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "96a248ed-173e-4c7b-b955-356069c02e16",
+            "Value": {
+                "id": "b81a7b78-eb03-45c3-b0c4-f0263577e6cd",
+                "resourcePath": "sprites\\red_roomba_elec\\red_roomba_elec.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98a894a5-5018-4d87-a3b2-b858c2845ede",
             "Value": {
                 "id": "886bdcf7-6243-45d2-ba34-56beb0e11432",
@@ -503,6 +527,14 @@
             }
         },
         {
+            "Key": "b808eed1-83ac-4c26-94b4-70641f76fd5e",
+            "Value": {
+                "id": "5c9493b4-5407-4eb2-a094-cfe3617e7bc5",
+                "resourcePath": "objects\\obj_red_roomba\\obj_red_roomba.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be8eeebe-9ce7-47ed-ae03-3eb23300adb5",
             "Value": {
                 "id": "523ddf14-646a-4f86-81ff-9de994ffc7b3",
@@ -555,6 +587,14 @@
             "Value": {
                 "id": "b67e1852-29b6-4712-a5f1-254b13d10414",
                 "resourcePath": "sprites\\spr_platform\\spr_platform.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1a0a88a-b023-4771-a0b8-fbaff3e1d906",
+            "Value": {
+                "id": "7d2a6372-74c2-49b6-a1da-b337bd20c98b",
+                "resourcePath": "sprites\\red_roomba_death\\red_roomba_death.yy",
                 "resourceType": "GMSprite"
             }
         },
