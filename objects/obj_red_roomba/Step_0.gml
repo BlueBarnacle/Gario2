@@ -53,7 +53,9 @@ else {
 	}
 	if place_meeting(x+3*mspd, y, obj_solid) {
 		mspd *= -1;	
-	}
+	} else if !place_meeting(x+19*mspd, y+16, obj_solid) {
+		mspd *= -1;	
+	} 
 	
 	
 		
